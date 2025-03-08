@@ -1,2 +1,53 @@
-.venv
-__pycache__
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar dependências instaladas (caso precise reinstalar, usa-se requirements.txt)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar arquivos de banco de dados locais (caso use SQLite, por exemplo)
+*.sqlite3
+*.db
+
+# Ignorar arquivos de logs
+logs/
+*.log
+
+# Ignorar envs locais (caso tenha variáveis sensíveis no projeto)
+.env
+.env.local
+
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar dependências instaladas (caso precise reinstalar, usa-se requirements.txt)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar arquivos de banco de dados locais (caso use SQLite, por exemplo)
+*.sqlite3
+*.db
+
+# Ignorar arquivos de logs
+logs/
+*.log
+
+# Ignorar envs locais (caso tenha variáveis sensíveis no projeto)
+.env
+.env.local
